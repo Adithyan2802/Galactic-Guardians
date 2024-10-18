@@ -1,3 +1,26 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:bf43c7e9df57f184e8893d7426ef3cd7bc7f7d4faf08b57b954a77f7d7b8dc62
-size 579
+using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.UI;
+
+public class BackManager : MonoBehaviour
+{
+    private Collider rocketCollider;
+    public Button bckBtn;
+
+    private void Awake()
+    {
+        rocketCollider = GetComponent<Collider>();
+    }
+
+    private void OnTriggerStay(Collider other)
+    {
+        bckBtn.GetComponent<GameOver>().StartMFill();
+        bckBtn.Select();
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        bckBtn.GetComponent<GameOver>().StopFill();
+        EventSystem.current.SetSelectedGameObject(null);
+    }
+}

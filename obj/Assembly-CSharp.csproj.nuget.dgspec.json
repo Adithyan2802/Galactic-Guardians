@@ -1,3 +1,160 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5db5ef42fb4065b0acd50ce4144e4b0e53a070935376554f006456bba1961f6f
-size 5749
+{
+  "format": 1,
+  "restore": {
+    "/Users/adithyan/Documents/WSU/Professional Experience/Galactic Guardians/Assembly-CSharp.csproj": {}
+  },
+  "projects": {
+    "/Users/adithyan/Documents/WSU/Professional Experience/Galactic Guardians/Assembly-CSharp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/adithyan/Documents/WSU/Professional Experience/Galactic Guardians/Assembly-CSharp.csproj",
+        "projectName": "Assembly-CSharp",
+        "projectPath": "/Users/adithyan/Documents/WSU/Professional Experience/Galactic Guardians/Assembly-CSharp.csproj",
+        "packagesPath": "/Users/adithyan/.nuget/packages/",
+        "outputPath": "/Users/adithyan/Documents/WSU/Professional Experience/Galactic Guardians/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/adithyan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "/Users/adithyan/Documents/WSU/Professional Experience/Galactic Guardians/Rokoko.csproj": {
+                "projectPath": "/Users/adithyan/Documents/WSU/Professional Experience/Galactic Guardians/Rokoko.csproj"
+              },
+              "/Users/adithyan/Documents/WSU/Professional Experience/Galactic Guardians/RokokoEditor.csproj": {
+                "projectPath": "/Users/adithyan/Documents/WSU/Professional Experience/Galactic Guardians/RokokoEditor.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/adithyan/Documents/WSU/Professional Experience/Galactic Guardians/Rokoko.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/adithyan/Documents/WSU/Professional Experience/Galactic Guardians/Rokoko.csproj",
+        "projectName": "Rokoko",
+        "projectPath": "/Users/adithyan/Documents/WSU/Professional Experience/Galactic Guardians/Rokoko.csproj",
+        "packagesPath": "/Users/adithyan/.nuget/packages/",
+        "outputPath": "/Users/adithyan/Documents/WSU/Professional Experience/Galactic Guardians/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/adithyan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/adithyan/Documents/WSU/Professional Experience/Galactic Guardians/RokokoEditor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/adithyan/Documents/WSU/Professional Experience/Galactic Guardians/RokokoEditor.csproj",
+        "projectName": "RokokoEditor",
+        "projectPath": "/Users/adithyan/Documents/WSU/Professional Experience/Galactic Guardians/RokokoEditor.csproj",
+        "packagesPath": "/Users/adithyan/.nuget/packages/",
+        "outputPath": "/Users/adithyan/Documents/WSU/Professional Experience/Galactic Guardians/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/adithyan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "/Users/adithyan/Documents/WSU/Professional Experience/Galactic Guardians/Rokoko.csproj": {
+                "projectPath": "/Users/adithyan/Documents/WSU/Professional Experience/Galactic Guardians/Rokoko.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

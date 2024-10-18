@@ -1,3 +1,7 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:90dbf6d8ec3063a5214d2aed6820bfab48cd2bb2e385f0ba49126a3b06351311
-size 263
+﻿using Rokoko.Core;
+
+/// <summary>
+/// Create a simple serialized version of a Dictionary in order to able to persist in Editor play mode.
+/// </summary>
+[System.Serializable]
+public class BlendshapesDictionary : SerializableDictionary<BlendShapes, string> { }

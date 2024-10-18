@@ -1,3 +1,48 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4140b76ff0ad04c9bfbae62abfa66295619b7337bd935441424f7b9c241603b2
-size 1120
+﻿using Rokoko.Helper;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+namespace Rokoko
+{
+    [ExecuteInEditMode]
+    public class TPoseGuideGameComponent : MonoBehaviour
+    {
+        public Transform followTarget;
+        public Vector3 followOffset = Vector3.zero;
+
+        private void Awake()
+        {
+            SceneManager.activeSceneChanged += SceneManager_activeSceneChanged;
+
+#if !UNITY_EDITOR
+            RokokoHelper.Destroy(this.gameObject);
+#endif
+        }
+
+        private void Start()
+        {
+            
+        }
+
+        private void SceneManager_activeSceneChanged(Scene arg0, Scene arg1)
+        {
+#if UNITY_EDITOR
+            if (!Application.isPlaying)
+            {
+                RokokoHelper.Destroy(this.gameObject);
+            }
+#endif
+        }
+
+        // Update is called once per frame
+        void Update()
+        {
+            this.transform.rotation = Quaternion.LookRotation(Vector3.up * -1);
+
+            if(followTarget != null)
+            {
+                this.transform.position = followTarget.transform.position + followOffset;
+            }
+        }
+    }
+}

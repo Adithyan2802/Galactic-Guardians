@@ -1,3 +1,2 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7fade60aff6ce456d8162947c1b0cbbc12b6016a4d1693fbb68d0875b2a2002c
-size 113
+For for info about the plugin please visit our page at GitHub
+https://github.com/Rokoko/rokoko-studio-live-unity/

@@ -1,3 +1,21 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e85a93c99ed1ffc24d6d2482cd73ab585388bf3b65abd5c9bce3d0f37527b73f
-size 490
+﻿using Rokoko.Core;
+using Rokoko.Helper;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+namespace Rokoko.Inputs
+{
+    public class PropColor : Prop
+    {
+        [HideInInspector] public MeshRenderer meshRenderer;
+
+        public override void UpdateProp(PropFrame propFrame)
+        {
+            base.UpdateProp(propFrame);
+
+            if (meshRenderer != null)
+                meshRenderer.material.color = propFrame.color.ToColor();
+        }
+    }
+}

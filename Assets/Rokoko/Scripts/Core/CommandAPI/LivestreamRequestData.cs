@@ -1,3 +1,23 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3a56de91865073d086d94c31b24628c80f81ad0a56baced861c76cd2c87afd88
-size 518
+using UnityEngine;
+
+namespace Rokoko.CommandAPI
+{
+    public class LivestreamRequestData
+    {
+        [SerializeField] private bool enabled = true;    // control a state of a custom live stream target
+        
+        // public members
+
+        public bool Enabled { get => enabled; set => enabled = value; }
+        
+        public override string ToString()
+        {
+            return $"{Enabled}";
+        }
+
+        public string ToJson()
+        {
+            return JsonUtility.ToJson(this);
+        }
+    }
+}

@@ -1,3 +1,18 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:125fc250b4baddc7f94daac10fb605e0e8046cab0936bee8bbce84c01167439d
-size 420
+{
+    "name": "RokokoEditor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:c0283c4bf59b9ad4aa5b4622e1c041a8"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

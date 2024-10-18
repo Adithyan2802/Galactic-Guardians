@@ -1,3 +1,55 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:18fe776f0444f8e56d9bc3aee107f6aec4f3c26f3679b5a2b29fda4c2d6dc2a7
-size 1741
+{
+  "format": 1,
+  "restore": {
+    "/Users/adithyan/Documents/WSU/Professional Experience/Galactic Guardians/Rokoko.csproj": {}
+  },
+  "projects": {
+    "/Users/adithyan/Documents/WSU/Professional Experience/Galactic Guardians/Rokoko.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/adithyan/Documents/WSU/Professional Experience/Galactic Guardians/Rokoko.csproj",
+        "projectName": "Rokoko",
+        "projectPath": "/Users/adithyan/Documents/WSU/Professional Experience/Galactic Guardians/Rokoko.csproj",
+        "packagesPath": "/Users/adithyan/.nuget/packages/",
+        "outputPath": "/Users/adithyan/Documents/WSU/Professional Experience/Galactic Guardians/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/adithyan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

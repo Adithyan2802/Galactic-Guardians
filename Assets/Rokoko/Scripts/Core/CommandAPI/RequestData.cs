@@ -1,3 +1,21 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ff0d06b4f6d51610e33c930f99d8cf47cd0dd6720fa8aaa71a64bb1b622fd88a
-size 441
+using UnityEngine;
+
+namespace Rokoko.CommandAPI
+{
+    public class RequestData
+    {
+        public string smartsuit = "";
+        public float countdown_delay = 4;
+        public string filename = "";
+
+        public override string ToString()
+        {
+            return smartsuit + "," + countdown_delay + ", " + filename;
+        }
+
+        public string ToJson()
+        {
+            return JsonUtility.ToJson(this);
+        }
+    }
+}

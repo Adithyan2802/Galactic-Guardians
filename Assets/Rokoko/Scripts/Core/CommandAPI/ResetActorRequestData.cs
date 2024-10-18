@@ -1,3 +1,21 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:bd9547a81a3dd2bd52fe8936ca501b8f16079462937b86e13af78b146f2b46dd
-size 435
+using UnityEngine;
+
+namespace Rokoko.CommandAPI
+{
+    public class ResetActorRequestData
+    {
+        [SerializeField] private string device_id = "";
+
+        public string DeviceId { get => device_id; set => device_id = value; }
+        
+        public override string ToString()
+        {
+            return DeviceId;
+        }
+
+        public string ToJson()
+        {
+            return JsonUtility.ToJson(this);
+        }
+    }
+}

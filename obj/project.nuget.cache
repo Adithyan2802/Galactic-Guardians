@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3045f4f87e43264b8df4bede194834619ef9cc8bedd266a9f690ef2c83f93408
-size 300
+{
+  "version": 2,
+  "dgSpecHash": "LCSPYYt/rgPHvTWDhoya7tOZCtNIBDwAguM1/iZd8/wib1Fyxg1Y8XpBo7DNij8Sb8qU2B2/kZH1ZDmNtw0PWg==",
+  "success": true,
+  "projectFilePath": "/Users/adithyan/Documents/WSU/Professional Experience/Galactic Guardians/Rokoko.csproj",
+  "expectedPackageFiles": [],
+  "logs": []
+}
